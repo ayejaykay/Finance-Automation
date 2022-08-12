@@ -27,7 +27,7 @@ class Bank():
 
 
     def open_site(self):
-        driver.get('https://www.citi.com/')
+        driver.get('url')
 
 
     def extract_csv_from_site(self):
