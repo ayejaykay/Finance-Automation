@@ -77,7 +77,7 @@ class CSV():
                 for line in csv_reader:
                     del line[None]
                     del line['Status']
-                    line['Account'] = 'CitiBank'
+                    line['Account'] = 'Account Name'
 
                     changeDescript(line)
                     debitCredit(line)
