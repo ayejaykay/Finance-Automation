@@ -15,7 +15,9 @@ def app():
     b.sign_in()
     b.extract_csv_from_site()
     time.sleep(10)
-
+    file = CSV('path/to/csv/file.csv')
+    file.write_to_google_sheet()
+    file.delete_csv()
 
     
 
