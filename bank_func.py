@@ -2,6 +2,7 @@ import time
 import re
 import selenium
 import os
+import gspread
 from selenium import webdriver
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
